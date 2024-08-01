@@ -1,4 +1,5 @@
 import { readFileSync } from "fs";
+import fetch, { Response } from 'node-fetch';
 import { Err, ErrResult, Ok, OkResult, Result } from "./result";
 
 export default class Client {
